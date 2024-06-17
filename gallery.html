@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gallery</title>
+    <link rel="stylesheet" href="cssstyle/style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Great+Vibes&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px;
+  background: #f3f4f6;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background-image: url('gambar/bow.jpg');
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+
+.header h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3em;
+  margin: 0;
+}
+
+.header p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+/* Top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #fda4ba;
+}
+
+/* Top navigation links */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+}
+
+.topnav a:hover {
+  background-color: #f78fb3;
+  color: white;
+}
+
+p {
+  text-align: center;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.0em;
+  padding: 10px;
+}
+
+.card {
+  background-color: #ffe3e3;
+  padding: 27px;
+  margin-top: 27px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 1em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+th {
+  background-color: #fda4ba;
+  color: white;
+}
+
+td img {
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>My Gallery</h1>
+  <p>Every picture tells a story.</p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="biodata.html">Biodata</a>
+  <a href="education.html">Education</a>
+  <a href="experience.html">Experience</a>
+  <a href="family.html">Family</a>
+  <a href="gallery.html">Gallery</a>
+</div>
+   
+ <div class="card">
+<table>
+  <tr>
+    <th>Arwah Abah</th>
+	<td>
+	<img src="gambar/arwahabah3.jpg" width="250">
+	<img src="gambar/arwahabah1.jpg" width="250">
+	<img src="gambar/arwahabah2.jpg" width="250">
+	<img src="gambar/kubur.jpg" width="250">
+	</td>
+  </tr>
+  <tr>
+    <th>Family</th>
+	<td>
+	<img src="gambar/kami.jpg" width="250">
+	<img src="gambar/kami1.jpg" width="250">
+	<img src="gambar/wedkakak.jpg" width="250">
+	<img src="gambar/wedkakak1.jpg" width="250">
+	</td>
+  </tr>
+  <tr>
+    <th>Big Family</th>
+	<td>
+	<img src="gambar/semua.jpg" width="250">
+	<img src="gambar/semua1.jpg" width="250">
+	<img src="gambar/semua4.jpg" width="250">
+	<img src="gambar/semua5.jpg" width="250">
+	</td>
+  </tr>
+  <tr>
+    <th>Friend</th>
+	<td>
+	<img src="gambar/bilah1.jpg" width="250">
+	<img src="gambar/roomate1.jpg" width="250">
+	<img src="gambar/diploma.jpg" width="250">
+	<img src="gambar/degree.jpg" width="250">
+	</td>
+  </tr>
+  </table>
+</div> 
+
+<script>
+    {
+        alert("All my favourite pictures are with all my favourite people.")
+    }
+</script>
+
+</body>
+</html>

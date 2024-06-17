@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Family</title>
+    <link rel="stylesheet" href="cssstyle/style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Great+Vibes&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px;
+  background: #f3f4f6;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background-image: url('gambar/bow.jpg');
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+
+.header h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3em;
+  margin: 0;
+}
+
+.header p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+/* Top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #fda4ba;
+}
+
+/* Top navigation links */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+}
+
+.topnav a:hover {
+  background-color: #f78fb3;
+  color: white;
+}
+
+p {
+  text-align: center;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.0em;
+  padding: 10px;
+}
+
+.card {
+  background-color: #ffe3e3;
+  padding: 27px;
+  margin-top: 27px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.tree {
+  margin: 20px auto;
+  text-align: center;
+  width: 100%;
+  color: #fda4ba
+}
+
+.tree ul {
+  padding-top: 20px;
+  position: relative;
+}
+
+.tree li {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  list-style-type: none;
+  position: relative;
+  padding: 20px 5px 0 5px;
+  color: #fda4ba;
+}
+
+.tree li::before, .tree li::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 50%;
+  border-top: 2px solid #fda4ba;
+  width: 50%;
+  height: 20px;
+}
+
+.tree li::after {
+  left: 50%;
+  border-left: 2px solid #fda4ba;
+}
+
+.tree li:only-child::after, 
+.tree li:only-child::before {
+  display: none;
+}
+
+.tree li:only-child {
+  padding-top: 0;
+}
+
+.tree li:first-child::before,
+.tree li:last-child::after {
+  border: none;
+}
+
+.tree li:last-child::before {
+  border-right: 2px solid #fda4ba;
+  border-radius: 0 5px 0 0;
+}
+
+.tree li:first-child::after {
+  border-radius: 5px 0 0 0;
+}
+
+.tree ul ul::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  border-left: 2px solid #fda4ba;
+  height: 20px;
+}
+
+.tree li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #ffe3e3;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #fda4ba;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  border-radius: 5px;
+  background-color: #ffe3e3;
+}
+
+.tree li a img {
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>My Gallery</h1>
+  <p>Where life begins and love never ends.</p>
+</div>
+
+ <div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="biodata.html">Biodata</a>
+  <a href="education.html">Education</a>
+  <a href="experience.html">Experience</a>
+  <a href="family.html">Family</a>
+  <a href="gallery.html">Gallery</a>
+</div>
+
+
+<div class="card">
+  <p id="Style1">Family means everything to me. I am the youngest of two sisters, and I always receive support from my family. Although my father, Tuan Azlan, passed away when I was four years old, his love never fades and is always the best memory for us. My mother, Kasmawati Kasim, is the love of my life and has always been my backbone. In 2008, she married my stepfather, Mohd Shukri, who brought new light into our lives, took care of us, and gave us unconditional love. My sister, Tuan Nur Antasya, who has been my best friend from childhood until now, also got married and brought a new member to our little family.</div> 
+   
+<div class="card">
+<div class="tree">
+  <ul>
+  <li>
+   <a href="#"><img src="gambar/family/arwahabah.jpg" height="200" width="200" alt="Tuan Azlan">Tuan Azlan Bin Tuan Kob @ Yaakob (Arwah Abah)</a>
+  <ul>
+  <li>
+   <a href="#"><img src="gambar/family/umi2.jpg" height="200" width="200" alt="Kasmawati">Kasmawati Binti Mohd Kasim (Umi)</a>
+  <ul>
+  <li>
+   <a href="#"><img src="gambar/family/kakak.jpg" height="200" width="200" alt="Tuan Nur Antasya">Tuan Nur Antasya Binti Tuan Azlan (Kakak)</a>
+  <ul>
+  <li>
+   <a href="#"><img src="gambar/family/abe.jpg" height="200" width="200" alt="Mohd Arif">Mohd Arif Bin Che Ishak (Abang)</a>
+  </li>
+  </ul>
+  </li>
+  <li>
+   <a href="#"><img src="gambar/family/ain.jpg" height="200" width="200" alt="Tuan Nur Ain">Tuan Nur Ain Binti Tuan Azlan</a>
+  </li>
+  </ul>
+  </li>
+  <li>
+   <a href="#"><img src="gambar/family/abah.jpg" height="200" width="200" alt="Mohd Shukri">Mohd Shukri Bin Makhtar (Abah)</a>
+  </li>
+  </ul>
+  </li>
+  </ul>
+ </div>
+</div>
+
+<script>
+    {
+        alert("Family always comes first!")
+    }
+</script>
+
+</body>
+</html>
